@@ -19,13 +19,12 @@
           <div class="rectangle-84-1LW"></div>
           <p class="thanks-for-choosing-us-Rv2">Order ID: {{ order['order_id'] }}</p>
           <img class="mask-group-qsG" src="static/assets/mask-group.png"/>
-          <ul>
-            <ul class="cart-items"></ul>
+          <ul class="order-items-list">
             {% for item in order['cart'] %}
               <li>{{ item['name'] }} - ${{ item['price'] }}</li>
             {% endfor %}
           </ul>
-          <a href="{{ url_for('mark_order_complete', order_id=order['order_id']) }}">Mark as Complete</a>
+          <a class="markbutton" href="{{ url_for('mark_order_complete', order_id=order['order_id']) }}">Mark as Complete </a>
         </div>
       </li>
     {% endfor %}
