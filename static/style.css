@@ -1,4 +1,46 @@
+.flag-image {
+  position: absolute;
+  /* Adjust the positioning as needed */
+  top: 1466px;
+  left: 0px;
+  /* Adjust the size as needed */
+  width: 376px;
+  height: 250.67px;
+  z-index: 3;
+}
+.fixed-button {
+  position: fixed;
+  bottom: 40px;
+  right: 60px;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+  z-index: 2;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
 
+.icon {
+  width: 70px; /* Adjust the width of the icon as needed */
+  height: 70px; /* Adjust the height of the icon as needed */
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.top-right-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 45%; /* Ensure the image doesn't exceed its original size */
+  height: auto; /* Maintain the image's aspect ratio */
+  z-index: 2; 
+}
 html {
 	font-size:49.45%;
 }
