@@ -20,6 +20,7 @@
           <p class="thanks-for-choosing-us-Rv2">Order ID: {{ order['order_id'] }}</p>
           <img class="mask-group-qsG" src="static/assets/mask-group.png"/>
           <ul>
+            <ul class="cart-items"></ul>
             {% for item in order['cart'] %}
               <li>{{ item['name'] }} - ${{ item['price'] }}</li>
             {% endfor %}
