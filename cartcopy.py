@@ -96,7 +96,7 @@ def mark_order_complete(order_id):
     if index_to_remove is not None:
         completed_order = complete_orders.pop(index_to_remove)  # Remove and store the completed order
         complete_mario.append(completed_order)
-    return redirect('/luigi')
+    return redirect('/order_history')
 
 @app.route('/mario')
 def mario_orders():
