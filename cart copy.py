@@ -68,7 +68,6 @@ def process_order():
             'order_id': order_id,
             'name': name,
             'cart': session['cart']
-            dad
         }
         orders[order_id] = order
         session['luigi']=session['cart']
