@@ -82,6 +82,10 @@ def process_order():
 def all_orders():
     return render_template('luigi.html', complete_orders=complete_orders)
 
+@app.route('/order_history')
+def order_history():
+    return render_template('order_history.html', complete_orders=complete_orders)
+
 @app.route('/mark_order_complete/<int:order_id>', methods=['GET'])
 def mark_order_complete(order_id):
     index_to_remove = None
