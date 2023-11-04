@@ -13,7 +13,7 @@ input {
 	border: none;
 }
 body {
-  width: 192rem;
+  width: auto;
 }.order-completed-9te {
   box-sizing: border-box;
   padding: 13.2rem 63.9rem 0rem 13.2rem;
@@ -86,7 +86,7 @@ body {
 .order-items-list {
   position: absolute;
   left: 6rem;
-  top: 32rem;
+  top: 28rem;
   font-size: 3rem;
   font-weight: 300;
   font-family: Kaushan Script, 'Source Sans Pro';
@@ -99,5 +99,18 @@ body {
   font-size: 3rem;
   font-weight: 300;
   font-family: Kaushan Script, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  left: 68rem;
+  top: 35rem;
+  font-size: 8rem;
+  font-weight: 300;
+  font-family: Kaushan Script, 'Source Sans Pro';
+  color: red;
   white-space: nowrap;
 }
