@@ -1,0 +1,80 @@
+body {
+    background-image: url('/static/assets/white-concrete-wall-bg.png');
+    background-size: cover; /* Make the background image cover the entire body */
+    color: #ffffff;
+}
+
+
+/* Define the button style */
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust the padding to change the button size */
+    background-color: rgba(255, 255, 255, 0.63); /* Change the background color as desired */
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    font-family: Bree Serif, 'Source Sans Pro';
+    transition: background-color 0.3s;
+}
+
+/* Add a hover effect for the button */
+.button:hover {
+    padding: 12px 25px; /* Increase the padding on hover to make the button bigger */
+    font-size: 22px; /* Increase the font size on hover to make the text bigger */
+    background-color: #ff5c5c;
+}
+
+
+.title {
+
+    
+    font-size: 2.8rem;
+    font-weight: 100;
+    color: #ff5c5c;
+    font-family: Kaushan Script, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+    text-align: center;
+    top:0
+    
+}
+
+.table{
+    color: black;
+    font-family: Bree Serif, 'Source Sans Pro';
+
+
+
+
+
+}
+
+
+
+.lines{
+    padding-top:  15px;
+
+
+
+}
+
+
+.pizzeria_logo{
+
+    width: 11.4rem;
+    height: 11.4rem;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+    
+
+
+
+
+
+}
+
