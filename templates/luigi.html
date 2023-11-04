@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Incoming Orders</title>
+</head>
+<body>
+    <h1>All Orders</h1>
+    <ul>
+        {% for order in complete_orders %}
+            <li>
+                <h3>Order ID: {{ order['order_id'] }}</h3>
+                <p>Customer Name: {{ order['name'] }}</p>
+                <ul>
+                    {% for item in order['cart'] %}
+                        <li>{{ item['name'] }} - ${{ item['price'] }}</li>
+                    {% endfor %}
+                </ul>
+                <a href="{{ url_for('mark_order_complete', order_id=order['order_id']) }}">Mark as Complete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

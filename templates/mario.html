@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Orders</title>
+</head>
+<body>
+    <h1>All Orders</h1>
+    <ul>
+        {% for order in complete_mario %}
+    <li>
+        <h3>Order ID: {{ order['order_id'] }}</h3>
+        <p>Customer Name: {{ order['name'] }}</p>
+    </li>
+    <h3>Status: Complete</h3>
+        {% endfor %}
+            </li>
+    </ul>
+</body>
+</html>

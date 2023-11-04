@@ -1,0 +1,98 @@
+
+html {
+	font-size:49.45%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 192rem;
+}.order-completed-9te {
+  box-sizing: border-box;
+  padding: 13.2rem 63.9rem 0rem 13.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+}
+.order-completed-9te .pizzeria-logo-2-gGJ {
+  margin-right: 29.2rem;
+  width: 21.4rem;
+  height: 21.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.order-completed-9te .group-210-YpJ {
+  width: 64.3rem;
+  height: 100rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.order-completed-9te .group-210-YpJ .rectangle-84-1LW {
+  width: 64.3rem;
+  height: 81.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: -0.8rem -0.8rem 3rem rgba(0, 0, 0, 0.25), 0.8rem 0.8rem 3rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.order-completed-9te .group-210-YpJ .thanks-for-choosing-us-Rv2 {
+  width: 46rem;
+  height: 7rem;
+  position: absolute;
+  left: 8.7rem;
+  top: 8.2rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #ff5c5c;
+  font-family: Kaushan Script, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.order-completed-9te .group-210-YpJ .item-58-sGE {
+  width: 24.6rem;
+  height: 32.3rem;
+  position: absolute;
+  left: 18.1rem;
+  top: 20.9rem;
+  font-size: 22.2rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.order-completed-9te .group-210-YpJ .your-order-number-is--9zS {
+  width: 27.6rem;
+  height: 4.7rem;
+  position: absolute;
+  left: 18rem;
+  top: 18.9rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.order-completed-9te .group-210-YpJ .mask-group-qsG {
+  width: 51.2rem;
+  height: 51.2rem;
+  position: absolute;
+  left: 6.5rem;
+  top: 48.8rem;
+  object-fit: contain;
+  vertical-align: top;
+}
