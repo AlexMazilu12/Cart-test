@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="\static\cartcss.css"type="text/css"rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif%3A400"/>
+
+    
+    
+    
+    
+    
+    
     <title>Shopping Cart</title>
+
+
+
+
+
+
 </head>
 <body>
-    <h1>Shopping Cart</h1>
-    <ul>
+    
+    <img class="pizzeria_logo" src="static/assets/pizzeria-logo-2.png"/>
+    
+    
+    <h1 class = "title" >Shopping Cart</h1>
+    <ul class = "table">
         {% for item in cart %}
-            <li>
+            <li class = "lines">
                 {{ item['name'] }} - ${{ item['price'] }}
             </li>
         {% endfor %}
     </ul>
-    <p><a href="{{ url_for('checkout') }}">Proceed to Checkout</a></p>
-    <p><a href="{{ url_for('index') }}">Continue Shopping</a></p>
+    <p><a class="button" href="{{ url_for('checkout') }}">Proceed to Checkout</a></p>
+    <p><a class="button" href="{{ url_for('index') }}">Continue Shopping</a></p>
+
 </body>
 </html>
