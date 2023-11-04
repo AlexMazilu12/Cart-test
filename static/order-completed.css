@@ -14,7 +14,14 @@ input {
 }
 body {
   width: 192rem;
-}.order-completed-9te {
+  background-image: url('/static/assets/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdizlta1l2pvyje1otgtymfja2dyb3vuzc0wm18xlmpwzw-2-bg.png');
+
+
+}
+
+
+
+.order-completed-9te {
   box-sizing: border-box;
   padding: 13.2rem 63.9rem 0rem 13.2rem;
   width: 100%;
