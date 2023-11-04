@@ -98,5 +98,5 @@ def mark_order_complete(order_id):
 def mario_orders():
     return render_template('mario.html', complete_mario=complete_mario) 
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     app.run(debug=True)
