@@ -18,7 +18,12 @@
   z-index: 2;
   background-color: #ffffff;
   border-radius: 50%;
+  transition: transform 0.5s;                                                   /*I changed the basket   (Start)   */
 }
+.fixed-button:hover {
+transform: scale(1.3); /* Increase the size by 10% on hover */
+}                                                                                  /*I changed the basket   (End)   */
+
 
 .icon {
   width: 70px; /* Adjust the width of the icon as needed */
