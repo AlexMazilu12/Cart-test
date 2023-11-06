@@ -19,13 +19,12 @@
     
     <div class = "table">
         <ul>
-            {% for item in cart %}
-                <li class = "lines">
-                    {{ item['name'] }} - ${{ item['price'] }}
-                </li>
+            {% for (item_key, quantity) in item_quantities.items() %}
+        <li class="lines">
+            {{ quantity }} x {{ item_key[0] }} - ${{ item_key[1] }}
+        </li>
             {% endfor %}
         </ul>
-    
         <p><a class="button" href="{{ url_for('checkout') }}">Proceed to Checkout</a></p>
         <p><a class="button" href="http://127.0.0.1:5000/">Continue Shopping</a></p>   
         

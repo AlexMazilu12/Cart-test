@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, session, url_for
-import copy
+from collections import defaultdict
 app = Flask(__name__)
 app.secret_key = 'hfawef920343a0fsdoogs'
 
@@ -22,6 +22,7 @@ products = [
     {'id': 16, 'name': 'Coca Cola', 'price': 1.35},
     {'id': 17, 'name': 'Sprite Zero', 'price': 1.35}
 ]
+item_quantities = {}
 complete_orders = []
 complete_mario = []
 orders = {}
@@ -51,13 +52,17 @@ def add_to_cart(product_id):
 @app.route('/view_cart')
 def view_cart():
     cart = session.get('cart', [])
-    return render_template('cart.html', cart=cart)
+    item_quantities = defaultdict(int)
+    for item in cart:
+        item_key = (item['name'], item['price'])
+        item_quantities[item_key] += 1
+    return render_template('cart.html', item_quantities=item_quantities)
 
 @app.route('/checkout')
 def checkout():
     cart = session.get('cart', [])
     total = round(sum(item['price'] for item in cart), 2)
-    return render_template('checkout.html', cart=cart, total=total)
+    return render_template('checkout.html', cart=cart, total=total, item_quantities=item_quantities)
 
 @app.route('/process_order', methods=['POST'])
 def process_order():
