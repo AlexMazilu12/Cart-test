@@ -70,20 +70,25 @@ def checkout():
 
 @app.route('/process_order', methods=['POST'])
 def process_order():
+    cart = session.get('cart', [])
+    item_quantities = defaultdict(int)
+    for item in cart:
+        item_key = (item['name'], item['price'])
+        item_quantities[item_key] += 1
     if 'cart' in session:
         name = request.form.get('name')
         order_id = generate_order_id()
         order = {
             'order_id': order_id,
             'name': name,
-            'cart': session['cart']
+            'cart': item_quantities.items()
         }
         orders[order_id] = order
         session['luigi']=session['cart']
         session['order_id'] = order_id
         complete_orders.append(order)
         session['cart'] = []
-        return render_template('order_completed.html', order_id=order_id, name=name, complete_orders=complete_orders)
+        return render_template('order_completed.html', order_id=order_id, name=name, item_quantities=item_quantities, complete_orders=complete_orders)
     else:
         return "Cart is empty. Please add items to the cart before placing an order."
 
