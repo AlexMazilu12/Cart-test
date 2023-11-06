@@ -1,3 +1,19 @@
+.fixed_Luigi {
+  position: fixed;
+  bottom: 40px;
+  right: 60px;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+  z-index: 2;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.fixed_Luigi img {
+  width: 160px; /* Change this value to your desired width */
+  height: auto; /* Adjust the height accordingly, or use auto to maintain the aspect ratio */
+}
 
 html {
 	font-size:49.45%;
