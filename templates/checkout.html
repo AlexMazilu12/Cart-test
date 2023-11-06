@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
 </head>
 <body>
     <h1>Checkout</h1>
