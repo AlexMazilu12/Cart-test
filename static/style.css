@@ -1,3 +1,4 @@
+
 .flag-image {
   position: absolute;
   /* Adjust the positioning as needed */
@@ -227,14 +228,14 @@ body {
   color: #ce2b37;
   font-family: Bree Serif, 'Source Sans Pro';
 }
-.final-wG6 .group-149-WCi .slide-16-9-4-cwt .button-dFx {                /*I changed this to add the hover effect   (Beggining)  */
+.final-wG6 .group-149-WCi .slide-16-9-4-cwt .button-dFx {
   width: 35.5rem;
   height: 8rem;
   display: flex;
   font-size: 3.6rem;
   font-weight: 400;
   line-height: 1.2502271864;
-  color: #000000;
+  color: black; /* Set the font color to black */
   font-family: Bree Serif, 'Source Sans Pro';
   white-space: nowrap;
   align-items: center;
