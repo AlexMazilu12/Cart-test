@@ -9,19 +9,14 @@ body {
     background-position: center;
 }
 
-/* ... (existing styles) ... */
-/* checkout.css */
-
-body {
-    font-family: Bree Serif, 'Source Sans Pro';
-}
-
 h1 {
     font-size: 30px; /* Checkout */
+    font-family: Bree Serif, 'Source Sans Pro';
 }
 
 p {
     font-size: 18px; /* Total */
+    font-family: Bree Serif, 'Source Sans Pro';
 }
 
 form {
@@ -82,3 +77,13 @@ a.button:hover {
 }
 
 /* ... (existing styles) ... */
+.items {
+    padding-top:  15px;
+    font-family: Bree Serif, 'Source Sans Pro';
+    font-size:16px;
+}
+
+.table{
+    color: black;
+    font-family: Bree Serif, 'Source Sans Pro';
+}

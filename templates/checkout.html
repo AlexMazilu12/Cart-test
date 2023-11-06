@@ -6,13 +6,15 @@
 </head>
 <body>
     <h1>Checkout</h1>
+ <div class = "table">
     <ul>
-        {% for item in cart %}
-            <li>
-                {{ item['name'] }} - ${{ item['price'] }}
-            </li>
+        {% for (item_key, quantity) in item_quantities.items() %}
+    <li class="items">
+        {{ quantity }} x {{ item_key[0] }} - ${{ item_key[1] }}
+    </li>
         {% endfor %}
     </ul>
+</div>
     <p>Total: ${{ total }}</p>
     <form action="/process_order" method="post">
         <label for="name">Name:</label>
