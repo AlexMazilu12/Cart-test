@@ -62,6 +62,10 @@ def view_cart():
 def checkout():
     cart = session.get('cart', [])
     total = round(sum(item['price'] for item in cart), 2)
+    item_quantities = defaultdict(int)
+    for item in cart:
+        item_key = (item['name'], item['price'])
+        item_quantities[item_key] += 1
     return render_template('checkout.html', cart=cart, total=total, item_quantities=item_quantities)
 
 @app.route('/process_order', methods=['POST'])
