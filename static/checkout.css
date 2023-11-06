@@ -21,7 +21,7 @@ h1 {
 }
 
 p {
-    font-size: 20px; /* Total */
+    font-size: 18px; /* Total */
 }
 
 form {
@@ -42,15 +42,16 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    padding: 6px 12px;
-    font-size: 18px;
+    padding: 5px 9px;
+    font-size: 16px;
     background-color: black; /* Set the background color to black */
     color: white; /* Set the text color to white for better visibility */
     border: none; /* Remove default button border */
-    border-radius: 6px; /* Add rounded corners */
+    border-radius: 4px; /* Add rounded corners */
     cursor: pointer; /* Add a pointer cursor on hover for better user feedback */
     transition: background-color 0.3s, color 0.3s, border 0.3s; 
     font-family: Bree Serif, 'Source Sans Pro';
+    margin-bottom: -8px;
 }
 
 input[type="submit"]:hover {
@@ -65,13 +66,12 @@ input[type="submit"]:hover {
 
 a.button {
     display: inline-block;
-    padding: 6px 12px; /* Adjust padding for a smaller button */
-    font-size: 18px; /* Adjust font size for a smaller button */
-    padding: 6px 10px;
+    font-size: 16px; /* Adjust font size for a smaller button */
+    padding: 5px 9px;
     background-color: #FF5C5C;
     color: white;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 6px;
     transition: background-color 0.3s, color 0.3s;
 }
 
