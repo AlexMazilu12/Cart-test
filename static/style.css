@@ -18,8 +18,11 @@
   z-index: 2;
   background-color: #ffffff;
   border-radius: 50%;
+  transition: transform 0.5s;                                                   /*I changed the basket   (Start)   */
 }
-
+.fixed-button:hover {
+transform: scale(1.3); /* Increase the size by 10% on hover */
+}                                                                                  /*I changed the basket   (End)   */
 .icon {
   width: 70px; /* Adjust the width of the icon as needed */
   height: 70px; /* Adjust the height of the icon as needed */
@@ -41,6 +44,7 @@ body, html {
   height: auto; /* Maintain the image's aspect ratio */
   z-index: 2; 
 }
+
 html {
 	font-size:49.45%;
 }
@@ -56,7 +60,6 @@ input {
 }
 body {
   width: 192rem;
-  background-color: #000000;
 }.final-wG6 {
   width: 100%;
   overflow: hidden;
@@ -84,7 +87,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('/static/assets/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdizlta1l2pvyje1otgtymfja2dyb3vuzc0wm18xlmpwzw-2-bg.png');
+  background-image: url('../assets/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdizlta1l2pvyje1otgtymfja2dyb3vuzc0wm18xlmpwzw-2-bg.png');
   background-color: #ffffff;
   flex-shrink: 0;
 }
@@ -224,7 +227,7 @@ body {
   color: #ce2b37;
   font-family: Bree Serif, 'Source Sans Pro';
 }
-.final-wG6 .group-149-WCi .slide-16-9-4-cwt .button-dFx {
+.final-wG6 .group-149-WCi .slide-16-9-4-cwt .button-dFx {                /*I changed this to add the hover effect   (Beggining)  */
   width: 35.5rem;
   height: 8rem;
   display: flex;
@@ -239,7 +242,17 @@ body {
   background-color: #ffffff;
   border-radius: 2rem;
   flex-shrink: 0;
+  transition: color 0.6s, background-color 0.6s, border-color 0.6s;
+  border: 2px solid transparent;
 }
+
+.final-wG6 .group-149-WCi .slide-16-9-4-cwt .button-dFx:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff; 
+}                                                                                          /*I changed this to add the hover effect (END)  */
+
+
 .final-wG6 .group-149-WCi .item-111-Dzr {
   box-sizing: border-box;
   padding-top: 5.9rem;
@@ -253,7 +266,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('/static/assets/white-concrete-wall-bg.png');
+  background-image: url('../assets/white-concrete-wall-bg.png');
   background-color: #ffffff;
   flex-shrink: 0;
 }
@@ -333,8 +346,8 @@ body {
   font-family: Bree Serif, 'Source Sans Pro';
 }
 .final-wG6 .group-149-WCi .item-111-Dzr .auto-group-4rai-4Vg .png-transparent-olive-tree-drawing-olive-oil-mediterranean-cuisine-olive-branch-food-plant-leaf-fruit-removebg-preview-1-3Xx {
-  width: 81.3348rem;
-  height: 78.9828rem;
+  width: 75.75rem;
+  height: 72.96rem;
   position: absolute;
   left: 141.1rem;
   top: 0;
@@ -376,7 +389,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('/static/assets/mask-group.png');
+  background-image: url('../assets/mask-group.png');
 }
 .final-wG6 .group-149-WCi .item-111-Dzr .auto-group-4rai-4Vg .group-166-qML .arrow-1-KXQ {
   width: 6.9rem;
@@ -555,6 +568,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
+
 .final-wG6 .auto-group-jc6v-Wbt .group-210-zmx .auto-group-38pl-7qt .auto-group-afea-9Xg {
   margin: 2.75rem 0rem 2.026rem 0rem;
   height: calc(100% - 4.7768rem);
@@ -602,6 +616,7 @@ body {
   color: #000000;
   font-family: Kaushan Script, 'Source Sans Pro';
   white-space: nowrap;
+
 }
 .final-wG6 .auto-group-jc6v-Wbt .group-210-zmx .auto-group-znou-EhY .item-1199-gpS {
   width: 6rem;
@@ -722,7 +737,12 @@ body {
   top: 0.2rem;
   object-fit: cover;
   vertical-align: top;
+  transition: transform 1s;                                                                   /*I added hover effect (Start)*/
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-194-wA2 .group-185-CLr .auto-group-mrce-gmp .vecteezypepperoni-pizza-isolated-illustration-ai-generative23742417468-1-7cE:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                 /*I added hover effect (End)*/
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-194-wA2 .group-185-CLr .auto-group-mrce-gmp .mask-group-QbL {
   width: 10.1rem;
   height: 10.1rem;
@@ -783,7 +803,11 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-194-wA2 .group-185-CLr .auto-group-txs4-SY2 .add-1-7-QWn:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-195-578 {
   width: 52rem;
   height: 100%;
@@ -821,7 +845,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                   /*I added hover effect (Start)*/
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-195-578 .group-173-Z2J .vegancalifornian-8071-r1Q:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                 /*I added hover effect (End)*/
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-195-578 .group-173-Z2J .vegan-californian-pizza-aTC {
   margin: 0rem 0rem 1.7rem 0.1rem;
   text-align: center;
@@ -865,7 +894,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-195-578 .group-173-Z2J .auto-group-almp-xyY .add-1-1-R6S:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-197-4v6 {
   box-sizing: border-box;
   padding: 3.1rem 4.4rem 4.7rem 4.4rem;
@@ -886,7 +920,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                   /*I added hover effect (Start)*/
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-197-4v6 .pizza-margherita-on-transparent-background-png-1-BUv:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                 /*I added hover effect (End)*/
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-197-4v6 .margaritha-pizza-6Lz {
   margin: 0rem 0rem 1.7rem 0.1rem;
   text-align: center;
@@ -930,7 +969,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-ohmc-3aS .group-197-4v6 .auto-group-tax4-sm4 .add-1-12-wkv:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx {
   margin: 0rem 6.4rem 6rem 3.7rem;
   width: calc(100% - 10.1rem);
@@ -972,6 +1016,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-199-i9Q .group-177-T6z .tomato-sauce-extra-mozzarella-ham-pbk {
   margin: 0rem 8.5rem 4.9rem 0rem;
   font-size: 2rem;
@@ -982,6 +1027,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-199-i9Q .group-177-T6z .auto-group-uvaa-vug {
   width: 100%;
   display: flex;
@@ -1004,7 +1050,11 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-199-i9Q .group-177-T6z .auto-group-uvaa-vug .add-1-3-DNz:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-199-i9Q .ham-pizza-pizza-1-GcA {
   width: 57.5rem;
   height: 43.9rem;
@@ -1013,7 +1063,12 @@ body {
   top: 2.6rem;
   object-fit: cover;
   vertical-align: top;
+  transition: transform 1s;                                                                   /*I added hover effect (Start)*/
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-199-i9Q .ham-pizza-pizza-1-GcA:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                 /*I added hover effect (End)*/
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-179-PRt {
   margin-right: 6.3rem;
   box-sizing: border-box;
@@ -1035,7 +1090,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                   /*I added hover effect (Start)*/
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-179-PRt .tuna-8073-1-gA6:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                 /*I added hover effect (End)*/
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-179-PRt .tonno-pizza-nD8 {
   margin: 0rem 0rem 1.7rem 0.1rem;
   text-align: center;
@@ -1079,7 +1139,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-179-PRt .auto-group-5wxx-C1x .add-1-4-TTg:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-181-hcv {
   box-sizing: border-box;
   padding: 2.2rem 3.7rem 4.7rem 3.6rem;
@@ -1122,7 +1187,12 @@ body {
   top: 0;
   object-fit: cover;
   vertical-align: top;
+  transition: transform 1s;                                                                   /*I added hover effect (Start)*/
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-181-hcv .auto-group-hubx-ovr .pizza-chicken-Fnr:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                 /*I added hover effect (End)*/
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-181-hcv .tomato-sauce-grilled-chicken-extra-mozzarella-PeA {
   margin: 0rem 9.6rem 2.2rem 0rem;
   max-width: 33.5rem;
@@ -1133,6 +1203,7 @@ body {
   font-family: Bree Serif, 'Source Sans Pro';
   flex-shrink: 0;
 }
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-181-hcv .auto-group-nffp-JFL {
   margin: 0rem 0.7rem 0rem 0.8rem;
   width: calc(100% - 1.5rem);
@@ -1156,7 +1227,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-8ucs-CRx .group-181-hcv .auto-group-nffp-JFL .add-1-5-ByL:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ {
   margin: 0rem 6.4rem 6rem 6.5rem;
   width: calc(100% - 12.9rem);
@@ -1186,7 +1262,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                   /*I added hover effect (Start)*/
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-183-LUr .bbq-9414-dyk:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                 /*I added hover effect (End)*/
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-183-LUr .bbq-grill-pizza-Muk {
   margin: 0rem 0rem 1.7rem 0.1rem;
   text-align: center;
@@ -1230,7 +1311,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-183-LUr .auto-group-zdnj-kBC .add-1-6-RHL:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-203-H4e {
   height: 100%;
   display: flex;
@@ -1258,7 +1344,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                   /*I added hover effect (Start)*/
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-203-H4e .group-187-q6A .mexican-8062-8b4:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                 /*I added hover effect (End)*/
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-203-H4e .group-187-q6A .maxicano-pizza-fL6 {
   margin: 0rem 0rem 1.7rem 0.1rem;
   text-align: center;
@@ -1302,7 +1393,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-203-H4e .group-187-q6A .auto-group-atbc-T14 .add-1-8-87C:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-203-H4e .group-189-nSe {
   box-sizing: border-box;
   padding: 5rem 4.4rem 4.7rem 4.4rem;
@@ -1323,7 +1419,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                   /*I added hover effect (Start)*/
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-203-H4e .group-189-nSe .cheese-pizza-4-cheese-pizza-png-gnv:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                 /*I added hover effect (End)*/
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-203-H4e .group-189-nSe .four-cheese-pizza-Bjg {
   margin: 0rem 0rem 1.7rem 0.1rem;
   text-align: center;
@@ -1367,7 +1468,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-wfye-pmQ .group-203-H4e .group-189-nSe .auto-group-cmvc-NpA .add-1-9-4S6:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 {
   margin: 0rem 6.4rem 6rem 6.5rem;
   width: calc(100% - 12.9rem);
@@ -1404,7 +1510,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                   /*I added hover effect (Start)*/
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-205-p3t .group-191-ANe .hawaiian-pizza-isolated-on-transparent-background-png-fqC:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                 /*I added hover effect (End)*/
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-205-p3t .group-191-ANe .hawaii-pizza-Amx {
   margin: 0rem 0rem 1.7rem 0.1rem;
   text-align: center;
@@ -1448,7 +1559,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-205-p3t .group-191-ANe .auto-group-8nu2-Z3Q .add-1-10-Dte:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-205-p3t .group-193-sTQ {
   box-sizing: border-box;
   padding: 4rem 4.4rem 4.7rem 4.4rem;
@@ -1469,7 +1585,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-205-p3t .group-193-sTQ .pngtree-top-view-of-pizza-margherita-delicious-picture-image13032122-ymL:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-205-p3t .group-193-sTQ .vegan-pizza-Fyk {
   margin: 0rem 0rem 1.7rem 0.1rem;
   text-align: center;
@@ -1491,6 +1612,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-205-p3t .group-193-sTQ .auto-group-zgpc-4wC {
   width: 100%;
   display: flex;
@@ -1513,7 +1635,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-205-p3t .group-193-sTQ .auto-group-zgpc-4wC .add-1-11-9hk:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-198-CAE {
   width: 52.3rem;
   height: 100%;
@@ -1537,6 +1664,7 @@ body {
   height: 40rem;
   object-fit: cover;
   vertical-align: top;
+  
 }
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-198-CAE .group-175-iGz {
   box-sizing: border-box;
@@ -1560,7 +1688,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-198-CAE .group-175-iGz .dsc0956-min-c7U:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-198-CAE .group-175-iGz .meatlover-pizza-K1t {
   margin: 0rem 0rem 1.7rem 0.1rem;
   text-align: center;
@@ -1604,7 +1737,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-awcw-tg2 .group-198-CAE .group-175-iGz .auto-group-tvyy-7iS .add-1-2-QSe:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 {
   margin: 0rem 6.4rem 4.6rem 6.5rem;
   width: calc(100% - 12.9rem);
@@ -1650,7 +1788,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-211-We6 .group-191-TJS .mediamodifierimage-1-Z6a:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-211-We6 .group-191-TJS .cappuccino-sd4 {
   margin: 0rem 0rem 9.4rem 0.1rem;
   text-align: center;
@@ -1685,7 +1828,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-211-We6 .group-191-TJS .auto-group-zcuz-NJv .add-1-10-2eN:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-211-We6 .group-193-giv {
   box-sizing: border-box;
   padding: 7.5rem 0.4rem 4.7rem 0.4rem;
@@ -1706,7 +1854,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-211-We6 .group-193-giv .mediamodifierimage-2-PtE:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-211-We6 .group-193-giv .americano-XUe {
   margin: 0rem 0rem 9.4rem 0.1rem;
   text-align: center;
@@ -1741,7 +1894,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-211-We6 .group-193-giv .auto-group-tr8s-2gJ .add-1-11-hnS:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-213-ZZk {
   width: 110rem;
   height: 69rem;
@@ -1790,7 +1948,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-213-ZZk .group-191-VTQ .add-1-10-qfg:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-213-ZZk .group-193-hSz {
   box-sizing: border-box;
   padding: 11.1rem 0rem 4.7rem 0.1rem;
@@ -1811,7 +1974,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-213-ZZk .group-193-hSz .png-clipart-sprite-zero-soda-can-sprite-zero-blue-can-food-sprite-2-d5k:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-213-ZZk .group-193-hSz .sprite-zero-LF4 {
   margin-bottom: 8.1rem;
   text-align: center;
@@ -1846,7 +2014,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-213-ZZk .group-193-hSz .auto-group-ydhc-Fsp .add-1-11-6Ne:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .rectangle-962 {
   width: 31.5rem;
   height: 28.9rem;
@@ -1854,8 +2027,13 @@ body {
   left: 10.2rem;
   top: 86.9rem;
   background-size: 100% 100%;
-  background-image: url('/static/assets/rectangle.png');
+  background-image: url('../assets/rectangle.png');
+  transition: transform 1s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .rectangle-962:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .group-212-EdG {
   width: 52.3rem;
   height: 69rem;
@@ -1879,6 +2057,7 @@ body {
   height: 40rem;
   object-fit: cover;
   vertical-align: top;
+  
 }
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .group-212-EdG .group-175-MLW {
   box-sizing: border-box;
@@ -1902,7 +2081,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 1s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .group-212-EdG .group-175-MLW .mediamodifierimage-3-rHG:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .group-212-EdG .group-175-MLW .latte-aDG {
   margin: 0rem 0.5rem 9.4rem 0rem;
   text-align: center;
@@ -1937,7 +2121,12 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .group-212-EdG .group-175-MLW .auto-group-kyej-V5L .add-1-2-YpJ:hover {
+  transform: scale(1.2); /* Increase the size by 10% on hover */
+}                                                                                                                           /*I changed the button effect  (End) */
+
 .final-wG6 .auto-group-jc6v-Wbt .location-RNJ {
   margin: 0rem 0.2rem 6.5rem 0rem;
   font-size: 9.6rem;
