@@ -3,10 +3,82 @@
 /* ... (existing styles) ... */
 
 body {
-    background-image: url('/static/assets/360_F_232743479_Zzil5APYDHoBrUk7qfH7eYyq5KW0nV0C.jpg');
-    background-size: cover; /* Adjust as needed */
+    background-image: url('/static/assets/white-concrete-wall-bg.png');
+    background-size: 100% 500%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* ... (existing styles) ... */
+/* checkout.css */
+
+body {
+    font-family: Bree Serif, 'Source Sans Pro';
+}
+
+h1 {
+    font-size: 30px; /* Checkout */
+}
+
+p {
+    font-size: 20px; /* Total */
+}
+
+form {
+    max-width: 300px; /* Set a maximum width for the form */
+    margin: 20px 0; /* Add some margin for better spacing */
+}
+
+label {
+    display: block; /* Make labels block-level for better spacing */
+    margin-bottom: 5px; /* Add margin below labels */
+}
+
+input[type="text"] {
+    width: 110%; /* Make text input full width within the form */
+    padding: 8px; /* Add some padding for better input appearance */
+    box-sizing: border-box; /* Include padding and border in the input's total width */
+    margin-bottom: 10px; /* Add margin below text inputs */
+}
+
+input[type="submit"] {
+    padding: 6px 12px;
+    font-size: 18px;
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white for better visibility */
+    border: none; /* Remove default button border */
+    border-radius: 6px; /* Add rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover for better user feedback */
+    transition: background-color 0.3s, color 0.3s, border 0.3s; 
+    font-family: Bree Serif, 'Source Sans Pro';
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border: 1px; /* Add a black border on hover */
+    font-family: Bree Serif, 'Source Sans Pro';
+}
+/* checkout.css */
+
+/* ... (existing styles) ... */
+
+a.button {
+    display: inline-block;
+    padding: 6px 12px; /* Adjust padding for a smaller button */
+    font-size: 18px; /* Adjust font size for a smaller button */
+    padding: 6px 10px;
+    background-color: #FF5C5C;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.button:hover {
+    background-color: white;
+    color: black;
+    
 }
 
 /* ... (existing styles) ... */
