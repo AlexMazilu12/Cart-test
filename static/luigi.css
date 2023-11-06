@@ -98,8 +98,19 @@ body {
   top: 70rem;
   font-size: 3rem;
   font-weight: 300;
-  font-family: Kaushan Script, 'Source Sans Pro';
+  font-family: Bree Serif, 'Source Sans Pro';
   white-space: nowrap;
+  padding: 1rem 1rem;
+  background-color: #ffffff; /* White background */
+  border: 2px solid #000000; /* Black border */
+  cursor: pointer; /* Add cursor pointer for better user interaction */
+  border-radius: 14px;
+  transition: background-color 0.5s, color 0.5s; /* Add smooth transition */
+}
+
+.markbutton:hover {
+    background-color: #000000; /* Black background on hover */
+    color: #ffffff; /* White text color on hover */
 }
 
 h1 {
