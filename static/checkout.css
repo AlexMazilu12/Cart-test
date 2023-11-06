@@ -1,89 +1,107 @@
-/* styles.css */
-
-/* ... (existing styles) ... */
+/* checkout.css */
 
 body {
     background-image: url('/static/assets/white-concrete-wall-bg.png');
     background-size: 100% 500%;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0; /* Remove default margin for better control */
 }
 
 h1 {
-    font-size: 30px; /* Checkout */
+    font-size: 30px;
     font-family: Bree Serif, 'Source Sans Pro';
+    color: black;
+    font-weight: normal;
+    margin-top: 30px; /* Manually position the h1 element */
+    margin-left: 50px;
+    margin-bottom: -80px;
 }
 
 p {
-    font-size: 18px; /* Total */
+    font-size: 18px;
     font-family: Bree Serif, 'Source Sans Pro';
+    color: black;
+    margin-top: 10px; /* Manually position the p element */
+    margin-left: 60px;
+}
+p1 {
+    font-size: 18px;
+    font-family: Bree Serif, 'Source Sans Pro';
+    color: black;
+    margin-top: 0px; /* Manually position the p element */
+    margin-left: 30px;
 }
 
 form {
-    max-width: 300px; /* Set a maximum width for the form */
-    margin: 20px 0; /* Add some margin for better spacing */
+    max-width: 300px;
+    margin: 20px 0;
+    position: relative; /* Add positioning context to the form */
+    left: 50px; /* Manually position the form element */
 }
 
 label {
-    display: block; /* Make labels block-level for better spacing */
-    margin-bottom: 5px; /* Add margin below labels */
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 16px;
+    font-family: Bree Serif, 'Source Sans Pro';
 }
 
 input[type="text"] {
-    width: 110%; /* Make text input full width within the form */
-    padding: 8px; /* Add some padding for better input appearance */
-    box-sizing: border-box; /* Include padding and border in the input's total width */
-    margin-bottom: 10px; /* Add margin below text inputs */
+    width: 110%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 input[type="submit"] {
-    padding: 5px 9px;
-    font-size: 16px;
-    background-color: black; /* Set the background color to black */
-    color: white; /* Set the text color to white for better visibility */
-    border: none; /* Remove default button border */
-    border-radius: 4px; /* Add rounded corners */
-    cursor: pointer; /* Add a pointer cursor on hover for better user feedback */
-    transition: background-color 0.3s, color 0.3s, border 0.3s; 
+    padding: 8px 12px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
     font-family: Bree Serif, 'Source Sans Pro';
-    margin-bottom: -8px;
+    margin-bottom: 10px;
 }
 
 input[type="submit"]:hover {
     background-color: white;
     color: black;
-    border: 1px; /* Add a black border on hover */
-    font-family: Bree Serif, 'Source Sans Pro';
+    border: 1px;
 }
-/* checkout.css */
-
-/* ... (existing styles) ... */
 
 a.button {
     display: inline-block;
-    font-size: 16px; /* Adjust font size for a smaller button */
-    padding: 5px 9px;
+    font-size: 20px;
+    padding: 8px 12px;
     background-color: #FF5C5C;
     color: white;
     text-decoration: none;
-    border-radius: 6px;
-    transition: background-color 0.3s, color 0.3s;
+    border-radius: 8px;
+    transition: background-color 0.5s, color 0.5s;
+    margin-top: -10px; /* Manually position the button */
+    margin-left: 20px;
 }
 
 a.button:hover {
     background-color: white;
     color: black;
-    
 }
 
-/* ... (existing styles) ... */
 .items {
-    padding-top:  15px;
+    padding-top: 10px;
     font-family: Bree Serif, 'Source Sans Pro';
-    font-size:16px;
+    font-size: 16px;
+ 
 }
 
-.table{
+.table {
     color: black;
     font-family: Bree Serif, 'Source Sans Pro';
+    margin-top: 20px; /* Manually position the table element */
+    margin-left: -40px;
 }
