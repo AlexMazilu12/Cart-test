@@ -13,7 +13,7 @@
     <ul>
         {% for (item_key, quantity) in item_quantities.items() %}
     <li class="items">
-        {{ quantity }} x {{ item_key[0] }} - ${{ item_key[1] }}
+        {{ quantity }} x {{ item_key[0] }} - ${{ item_key[1] * quantity }}
     </li>
         {% endfor %}
     </ul>

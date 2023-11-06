@@ -8,7 +8,6 @@
   <title>Incoming Orders</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script%3A400" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif%3A400"/>
   <link href="static\luigi.css" type="text/css" rel="stylesheet">
   <h1> No Orders Yet</h1>
 </head>
@@ -25,8 +24,8 @@
           <p class="thanks-for-choosing-us-Rv2">Order ID: {{ order['order_id'] }}</p>
           <img class="mask-group-qsG" src="static/assets/mask-group.png"/>
           <ul class="order-items-list">
-            {% for item in order['cart'] %}
-              <li>{{ item['name'] }} - ${{ item['price'] }}</li>
+            {% for (item_key, quantity) in order['cart'] %}
+              <li>{{ quantity }} x {{ item_key[0]}}</li>
             {% endfor %}
           </ul>
           {% set url = url_for('mark_order_complete', order_id=order['order_id']) %}
