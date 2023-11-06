@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Orders</title>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Complete Orders</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400" />
+  <link href="static\mario.css" type="text/css" rel="stylesheet">
+  <h1> No Orders Yet</h1>
 </head>
 <body>
-    <h1>All Orders</h1>
-    <ul>
-        {% for order in complete_mario %}
-    <li>
-        <h3>Order ID: {{ order['order_id'] }}</h3>
-        <p>Customer Name: {{ order['name'] }}</p>
-    </li>
-    <h3>Status: Complete</h3>
-        {% endfor %}
-            </li>
-    </ul>
+  <ul>
+    {% for order in complete_mario %}
+      <li class="order-completed-9te">
+        <img class="pizzeria-logo-2-gGJ" src="static/assets/pizzeria-logo-2.png" />
+        <div class="group-210-YpJ">
+          <div class="rectangle-84-1LW"></div>
+          <p class="thanks-for-choosing-us-Rv2">Order ID: {{ order['order_id'] }}</p>
+          <p class="customer">Customer Name: {{ order['name'] }}</p>
+          <img class="mask-group-qsG" src="static/assets/mask-group.png"/>
+          <ul class="order-items-list">
+          </ul>
+          <p class="markbutton">Status: <span class="green-text">Complete</span></p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
 </body>
 </html>

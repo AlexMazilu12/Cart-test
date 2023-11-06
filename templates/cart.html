@@ -3,37 +3,34 @@
 <head>
     <link href="\static\cartcss.css"type="text/css"rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script%3A400"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif%3A400"/>
-
-    
-    
-    
-    
-    
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif%3A400"/>  
     <title>Shopping Cart</title>
-
-
-
-
-
-
 </head>
 <body>
     
-    <img class="pizzeria_logo" src="static/assets/pizzeria-logo-2.png"/>
+    <div>
+    
+        <img class="pizzeria_logo" src="static/assets/pizzeria-logo-2.png"/>
     
     
-    <h1 class = "title" >Shopping Cart</h1>
-    <ul class = "table">
-        {% for item in cart %}
-            <li class = "lines">
-                {{ item['name'] }} - ${{ item['price'] }}
-            </li>
-        {% endfor %}
-    </ul>
-    <p><a class="button" href="{{ url_for('checkout') }}">Proceed to Checkout</a></p>
-    <p><a class="button" href="{{ url_for('index') }}">Continue Shopping</a></p>
+        <h1 class = "title" >Shopping Cart</h1>
+    </div>
+    
+    
+    <div class = "table">
+        <ul>
+            {% for item in cart %}
+                <li class = "lines">
+                    {{ item['name'] }} - ${{ item['price'] }}
+                </li>
+            {% endfor %}
+        </ul>
+    
+        <p><a class="button" href="{{ url_for('checkout') }}">Proceed to Checkout</a></p>
+        <p><a class="button" href="http://127.0.0.1:5000/">Continue Shopping</a></p>   
+        
+    </div>
+        
 
 </body>
 </html>

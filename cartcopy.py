@@ -77,14 +77,10 @@ def process_order():
         return render_template('order_completed.html', order_id=order_id, name=name, complete_orders=complete_orders)
     else:
         return "Cart is empty. Please add items to the cart before placing an order."
-    
-@app.route('/luigi')
-def all_orders():
-    return render_template('luigi.html', complete_orders=complete_orders)
 
-@app.route('/order_history')
+@app.route('/luigi')
 def order_history():
-    return render_template('order_history.html', complete_orders=complete_orders)
+    return render_template('luigi.html', complete_orders=complete_orders)
 
 @app.route('/mark_order_complete/<int:order_id>', methods=['GET'])
 def mark_order_complete(order_id):
@@ -102,5 +98,5 @@ def mark_order_complete(order_id):
 def mario_orders():
     return render_template('mario.html', complete_mario=complete_mario) 
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     app.run(debug=True)
