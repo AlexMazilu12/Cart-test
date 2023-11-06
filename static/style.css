@@ -87,7 +87,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../assets/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdizlta1l2pvyje1otgtymfja2dyb3vuzc0wm18xlmpwzw-2-bg.png');
+  background-image: url('/static/assets/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdizlta1l2pvyje1otgtymfja2dyb3vuzc0wm18xlmpwzw-2-bg.png');
   background-color: #ffffff;
   flex-shrink: 0;
 }
@@ -266,7 +266,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../assets/white-concrete-wall-bg.png');
+  background-image: url('/static/assets/white-concrete-wall-bg.png');
   background-color: #ffffff;
   flex-shrink: 0;
 }
@@ -389,7 +389,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../assets/mask-group.png');
+  background-image: url('/static/assets/mask-group.png');
 }
 .final-wG6 .group-149-WCi .item-111-Dzr .auto-group-4rai-4Vg .group-166-qML .arrow-1-KXQ {
   width: 6.9rem;
@@ -2027,7 +2027,7 @@ body {
   left: 10.2rem;
   top: 86.9rem;
   background-size: 100% 100%;
-  background-image: url('../assets/rectangle.png');
+  background-image: url('/static/assets/rectangle.png');
   transition: transform 1s;                                                                                   /*I changed the button effect  (Start) */
 }
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .rectangle-962:hover {
