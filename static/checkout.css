@@ -1,0 +1,12 @@
+/* styles.css */
+
+/* ... (existing styles) ... */
+
+body {
+    background-image: url('/static/assets/360_F_232743479_Zzil5APYDHoBrUk7qfH7eYyq5KW0nV0C.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ... (existing styles) ... */
