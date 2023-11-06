@@ -1,12 +1,15 @@
 /* styles.css */
 
 /* ... (existing styles) ... */
-
+.items {
+    font-weight: bold;
+}
 body {
     background-image: url('/static/assets/white-concrete-wall-bg.png');
     background-size: 100% 500%;
     background-repeat: no-repeat;
     background-position: center;
+    font-weight: bold;
 }
 
 h1 {
@@ -37,16 +40,17 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    padding: 5px 9px;
-    font-size: 16px;
+    padding: 8px 12px;
+    font-size: 20px;
     background-color: black; /* Set the background color to black */
     color: white; /* Set the text color to white for better visibility */
     border: none; /* Remove default button border */
-    border-radius: 4px; /* Add rounded corners */
+    border-radius: 8px; /* Add rounded corners */
     cursor: pointer; /* Add a pointer cursor on hover for better user feedback */
     transition: background-color 0.3s, color 0.3s, border 0.3s; 
     font-family: Bree Serif, 'Source Sans Pro';
     margin-bottom: -8px;
+    font-weight: bold;
 }
 
 input[type="submit"]:hover {
@@ -61,13 +65,13 @@ input[type="submit"]:hover {
 
 a.button {
     display: inline-block;
-    font-size: 16px; /* Adjust font size for a smaller button */
-    padding: 5px 9px;
+    font-size: 20px; /* Adjust font size for a smaller button */
+    padding: 8px 12px;
     background-color: #FF5C5C;
     color: white;
     text-decoration: none;
-    border-radius: 6px;
-    transition: background-color 0.3s, color 0.3s;
+    border-radius: 8px;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 a.button:hover {
