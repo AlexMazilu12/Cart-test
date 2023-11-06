@@ -5,6 +5,10 @@
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
+  
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBH1qVkY1eGZXjGPZIxMoQtVselHjISNhE&callback=console.debug&libraries=maps,marker&v=beta">
+  </script>
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C500%2C600"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif%3A400"/>
@@ -419,7 +423,23 @@
         <br/>
         Jan van Lieshoutstraat, 5611 EE Eindhoven 
         </p>
-        <img class="item-1-Q7k" src="static\assets\.png"/>
+        
+        <div class="item-1-Q7k">
+          
+          <gmp-map center="51.441226959228516,5.478940486907959" zoom="14" map-id="DEMO_MAP_ID">
+            <gmp-advanced-marker position="51.441226959228516,5.478940486907959" title="My location">
+            </gmp-advanced-marker>
+          </gmp-map>
+
+        </div>
+
+      
+      
+      
+      
+      
+      
+      
       </div>
     </div>
   </div>
@@ -446,11 +466,11 @@
     </div>
      
     <div class="group-186-EyG">
-      <a href="#home" class="home-ZEr">Home</a>
-      <a href="#about" class="about-us-5yt">About Us</a>
-      <a href="#section_1" class="menu-cyp">Menu</a>
-      <a href="location.html" class="location-xXt">Location</a>
-    </div>
+        <a href="#home" class="home-ZEr">Home</a>
+        <a href="#about" class="about-us-5yt">About Us</a>
+        <a href="#section_1" class="menu-cyp">Menu</a>
+        <a href="location.html" class="location-xXt">Location</a>
+      </div>
     
     <img class="pizzeria-logo-1-6e6" src="static\assets\pizzeria-logo-1.png"/>
   </div>
