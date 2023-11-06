@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, session, url_for
+from flask import Flask, render_template, request, redirect, session
 from collections import defaultdict
 app = Flask(__name__)
 app.secret_key = 'hfawef920343a0fsdoogs'
