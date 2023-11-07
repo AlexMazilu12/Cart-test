@@ -86,7 +86,6 @@ a.button {
     margin-top: -10px; /* Manually position the button */
     margin-left: 20px;
 }
-
 a.button:hover {
     background-color: white;
     color: black;

@@ -458,7 +458,11 @@ body {
   top: 1.0432rem;
   object-fit: cover;
   vertical-align: top;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .group-210-zmx .auto-group-gzpc-KpE .vecteezypepperoni-pizza-isolated-illustration-ai-generative23742417468-2-7VC:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}       
 .final-wG6 .auto-group-jc6v-Wbt .group-210-zmx .auto-group-gzpc-KpE .pizza-pepperoni-bvA {
   width: 15.5rem;
   height: 3.5rem;
@@ -530,7 +534,11 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
+.final-wG6 .auto-group-jc6v-Wbt .group-210-zmx .auto-group-q5fx-FFx .fe1c4c7ac1474490609021e3e987dd584x584-1-9cE:hover {
+  transform: scale(1.1); /* Increase the size by 10% on hover */
+}     
 .final-wG6 .auto-group-jc6v-Wbt .group-210-zmx .auto-group-q5fx-FFx .auto-group-jcft-3Si {
   margin: 2.75rem 0rem 2.026rem 0rem;
   height: calc(100% - 4.7768rem);
@@ -576,8 +584,11 @@ body {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
 }
-
+.final-wG6 .auto-group-jc6v-Wbt .group-210-zmx .auto-group-38pl-7qt .pizza-margherita-on-transparent-background-png-1-2hx:hover {
+  transform: scale(1.1);
+}
 .final-wG6 .auto-group-jc6v-Wbt .group-210-zmx .auto-group-38pl-7qt .auto-group-afea-9Xg {
   margin: 2.75rem 0rem 2.026rem 0rem;
   height: calc(100% - 4.7768rem);
@@ -648,6 +659,10 @@ body {
   top: 0.9484rem;
   object-fit: cover;
   vertical-align: top;
+  transition: transform 0.3s, color 0.3s;                                                                                   /*I changed the button effect  (Start) */
+}
+.final-wG6 .auto-group-jc6v-Wbt .group-210-zmx .auto-group-znou-EhY .ham-pizza-pizza-2-yoY:hover {
+  transform: scale(1.1);
 }
 .final-wG6 .auto-group-jc6v-Wbt .group-168-2Wv {
   margin: 0rem 22.7rem 9.4rem 22.8rem;
