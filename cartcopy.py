@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, session
 from collections import defaultdict
+import json 
 app = Flask(__name__)
 app.secret_key = 'hfawef920343a0fsdoogs'
 
@@ -86,7 +87,23 @@ def process_order():
         orders[order_id] = order
         session['luigi']=session['cart']
         session['order_id'] = order_id
-        complete_orders.append(order)
+        print(order)
+        # Step 1: Read the existing JSON data from the file (if any)
+        file_path = 'orders.json'
+        order['cart'] = list(order['cart'])
+        try:
+            with open(file_path, 'r') as file:
+                data = json.load(file)
+        except FileNotFoundError:
+            data = []
+
+        # Step 2: Append the new order data to the existing data
+        data.append(order)
+
+        # Step 3: Write the updated data structure back to the JSON file
+        with open(file_path, 'w') as file:
+                json.dump(data, file, indent=4)
+                complete_orders.append(order)
         session['cart'] = []
         return render_template('order_completed.html', order_id=order_id, name=name, item_quantities=item_quantities, complete_orders=complete_orders)
     else:
