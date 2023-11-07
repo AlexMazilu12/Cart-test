@@ -88,7 +88,6 @@ def process_order():
         session['luigi']=session['cart']
         session['order_id'] = order_id
  
-        # Step 1: Read the existing JSON data from the file (if any)
         file_path = 'orders.json'
         order['cart'] = list(order['cart'])
         try:
@@ -96,11 +95,7 @@ def process_order():
                 data = json.load(file)
         except FileNotFoundError:
             data = []
-
-        # Step 2: Append the new order data to the existing data
         data.append(order)
-
-        # Step 3: Write the updated data structure back to the JSON file
         with open(file_path, 'w') as file:
                 json.dump(data, file, indent=4)
                 complete_orders.append(order)
@@ -121,7 +116,7 @@ def mark_order_complete(order_id):
             index_to_remove = i
             break
     if index_to_remove is not None:
-        completed_order = complete_orders.pop(index_to_remove)  # Remove and store the completed order
+        completed_order = complete_orders.pop(index_to_remove)
         complete_mario.append(completed_order)
     return redirect('/luigi')
 
