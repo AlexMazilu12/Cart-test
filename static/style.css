@@ -1,4 +1,12 @@
-
+#slide111 {
+  position: absolute;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  top: 1720px;
+  left: 50%;
+  width: 300px;
+  height: auto; 
+}
 .flag-image {
   position: absolute;
   top: 1469px;
@@ -395,6 +403,8 @@ body {
   height: 6.9rem;
   object-fit: cover;
   vertical-align: top;
+  z-index: 3;
+  position: absolute;
 }
 .final-wG6 .hit-offers-CLJ {
   margin-left: 19.7rem;
