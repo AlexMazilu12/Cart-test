@@ -69,11 +69,6 @@ def checkout():
         item_quantities[item_key] += 1
     return render_template('checkout.html', cart=cart, total=total, item_quantities=item_quantities)
 
-@app.route('/clear_cart', methods=['GET'])
-def clear_cart():
-    session['cart'] = []
-    return redirect('/view_cart')
-
 @app.route('/process_order', methods=['POST'])
 def process_order():
     cart = session.get('cart', [])
