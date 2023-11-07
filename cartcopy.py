@@ -122,15 +122,9 @@ def mark_order_complete(order_id):
             entry_to_remove = index_to_remove # Replace with the key you want to remove
             print(data[0])
             del data[0]
-            
-            
-                
             # Step 3: Write the updated data structure back to the JSON file
             with open(file_path, 'w') as file:
-                json.dump(data, file, indent=4)
-            
-            
-            
+                json.dump(data, file, indent=4)  
             break
     if index_to_remove is not None:
         completed_order = complete_orders.pop(index_to_remove)
