@@ -88,6 +88,7 @@ def process_order():
         session['luigi']=session['cart']
         session['order_id'] = order_id
         
+        
         # Step 1: Read the existing JSON data from the file (if any)
         file_path = 'orders.json'
         order['cart'] = list(order['cart'])
