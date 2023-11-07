@@ -1,41 +1,7 @@
 [
     {
-        "order_id": 1,
-        "name": "fbrhw",
-        "cart": [
-            [
-                [
-                    "Ham Pizza",
-                    11.99
-                ],
-                6
-            ],
-            [
-                [
-                    "Pepperoni Pizza",
-                    8.99
-                ],
-                2
-            ],
-            [
-                [
-                    "BBQ Grill Pizza",
-                    13.99
-                ],
-                1
-            ],
-            [
-                [
-                    "Hawaii Pizza",
-                    9.99
-                ],
-                1
-            ]
-        ]
-    },
-    {
-        "order_id": 1,
-        "name": "asfbsa",
+        "order_id": 6,
+        "name": "erewerw",
         "cart": [
             [
                 [
@@ -53,78 +19,23 @@
             ],
             [
                 [
-                    "Margeritha Pizza",
-                    9.99
-                ],
-                1
-            ],
-            [
-                [
-                    "Tonno Pizza",
+                    "Chicken Pizza",
                     12.99
-                ],
-                1
-            ],
-            [
-                [
-                    "Ham Pizza",
-                    11.99
                 ],
                 1
             ]
         ]
     },
     {
-        "order_id": 1,
-        "name": "fqgw",
+        "order_id": 7,
+        "name": "fvdf",
         "cart": [
             [
                 [
                     "Pepperoni Pizza",
                     8.99
                 ],
-                1
-            ],
-            [
-                [
-                    "Ham Pizza",
-                    11.99
-                ],
-                1
-            ],
-            [
-                [
-                    "BBQ Grill Pizza",
-                    13.99
-                ],
-                1
-            ]
-        ]
-    },
-    {
-        "order_id": 1,
-        "name": "asf",
-        "cart": [
-            [
-                [
-                    "Ham Pizza",
-                    11.99
-                ],
-                1
-            ],
-            [
-                [
-                    "BBQ Grill Pizza",
-                    13.99
-                ],
-                1
-            ],
-            [
-                [
-                    "Hawaii Pizza",
-                    9.99
-                ],
-                1
+                9
             ]
         ]
     }
