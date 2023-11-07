@@ -101,7 +101,11 @@
       <div class="auto-group-gzpc-KpE">
         <div class="rectangle-71-f7Q">
         </div>
-        <img class="vecteezypepperoni-pizza-isolated-illustration-ai-generative23742417468-2-7VC" src="static\assets\vecteezypepperoni-pizza-isolated-illustration-ai-generative23742417468-2.png"/>
+        {% for product in products %}
+        <a href="{{ url_for('add_to_cart', product_id=1) }}">
+        {% endfor %}
+        <img class="vecteezypepperoni-pizza-isolated-illustration-ai-generative23742417468-2-7VC" src="static\assets\vecteezypepperoni-pizza-isolated-illustration-ai-generative23742417468-2.png" alt="Button" />
+        </a>
         <p class="pizza-pepperoni-bvA">Pizza pepperoni</p>
         <p class="item-899-1199-J3t">
           <span class="item-899-1199-J3t-sub-0">€8.99 </span>
@@ -110,14 +114,22 @@
         <img class="mask-group-Kt6" src="static\assets\mask-group-Hjx.png"/>
       </div>
       <div class="auto-group-q5fx-FFx">
+        {% for product in products %}
+        <a href="{{ url_for('add_to_cart', product_id=9) }}">
+        {% endfor %}
         <img class="fe1c4c7ac1474490609021e3e987dd584x584-1-9cE" src="static\assets\fe1c4c7ac1474490609021e3e987dd584x584-1.png"/>
+        </a>
         <div class="auto-group-jcft-3Si">
           <p class="mario-dodster-xpa">Four Cheese Pizza</p>
           <p class="item-599-sge">€13.99</p>
         </div>
       </div>
       <div class="auto-group-38pl-7qt">
+        {% for product in products %}
+        <a href="{{ url_for('add_to_cart', product_id=3) }}">
+        {% endfor %}
         <img class="pizza-margherita-on-transparent-background-png-1-2hx" src="static\assets\pizza-margherita-on-transparent-background-png-1.png"/>
+        </a>
         <div class="auto-group-afea-9Xg">
           <p class="pizza-margharita-H86">Pizza margharita</p>
           <p class="item-945-QTc">€9.45</p>
@@ -126,7 +138,11 @@
       <div class="auto-group-znou-EhY">
         <p class="ham-pizza-amQ">Ham Pizza</p>
         <p class="item-1199-gpS">€11.99</p>
+        {% for product in products %}
+        <a href="{{ url_for('add_to_cart', product_id=4) }}">
+        {% endfor %}
         <img class="ham-pizza-pizza-2-yoY" src="static\assets\ham-pizza-pizza-2.png"/>
+        </a>
       </div>
     </div>
     
