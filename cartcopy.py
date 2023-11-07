@@ -57,7 +57,10 @@ def view_cart():
     for item in cart:
         item_key = (item['name'], item['price'])
         item_quantities[item_key] += 1
-    return render_template('cart.html', item_quantities=item_quantities)
+    if cart == []:
+        return render_template('emptycart.html')
+    else:
+        return render_template('cart.html', item_quantities=item_quantities)
 
 @app.route('/checkout')
 def checkout():
