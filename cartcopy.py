@@ -105,7 +105,6 @@ def process_order():
         return render_template('order_completed.html', order_id=order_id, name=name, item_quantities=item_quantities, complete_orders=complete_orders)
     else:
         return render_template('emptycart.html')
-
 @app.route('/luigi')
 def luigi_orders():
     return render_template('luigi.html', complete_orders=complete_orders)
