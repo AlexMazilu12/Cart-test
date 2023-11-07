@@ -87,7 +87,7 @@ def process_order():
         orders[order_id] = order
         session['luigi']=session['cart']
         session['order_id'] = order_id
-        print(order)
+        
         # Step 1: Read the existing JSON data from the file (if any)
         file_path = 'orders.json'
         order['cart'] = list(order['cart'])
@@ -119,6 +119,22 @@ def mark_order_complete(order_id):
     for i, order in enumerate(complete_orders):
         if order['order_id'] == order_id:
             index_to_remove = i
+            file_path = 'orders.json'
+            with open(file_path, 'r') as file:
+                data = json.load(file)
+            # Step 2: Modify the data structure to remove an entry
+            entry_to_remove = index_to_remove # Replace with the key you want to remove
+            print(data[0])
+            del data[0]
+            
+            
+                
+            # Step 3: Write the updated data structure back to the JSON file
+            with open(file_path, 'w') as file:
+                json.dump(data, file, indent=4)
+            
+            
+            
             break
     if index_to_remove is not None:
         completed_order = complete_orders.pop(index_to_remove)  # Remove and store the completed order
