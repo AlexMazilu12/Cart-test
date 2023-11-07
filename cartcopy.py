@@ -103,7 +103,7 @@ def process_order():
         session['cart'] = []
         return render_template('order_completed.html', order_id=order_id, name=name, item_quantities=item_quantities, complete_orders=complete_orders)
     else:
-        return "Your cart is empty!"
+        return render_template('emptycart.html')
 
 @app.route('/luigi')
 def luigi_orders():
