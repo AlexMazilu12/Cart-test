@@ -1,8 +1,13 @@
+body {
+    background-image: url('/static/assets/white-concrete-wall-bg.png');
+    background-size: cover; 
+}
+
 .button {
     position:absolute;
     display: inline-block;
-    top:35rem;
-    left:38rem;
+    top:34rem;
+    left:40rem;
     display: inline-block;
     font-size: 35px;
     padding: 8px 12px;
@@ -22,8 +27,8 @@ h1 {
     position: absolute;
     text-align: center;
     align-items: center;
-    left: 17rem;
-    top: 10rem;
+    left: 15rem;
+    top: 7rem;
     font-size: 8rem;
     font-weight: 300;
     font-family: Kaushan Script, 'Source Sans Pro';
