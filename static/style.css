@@ -1950,10 +1950,31 @@ body {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 1.3575;
-  color: #000000;
+  color: white;
   font-family: Bree Serif, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+}
+.potete{
+  font-family: Bree Serif, 'Source Sans Pro';
+  white-space: nowrap;
+  color: black;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3575;
+  position:absolute;
+}
+.potete2{
+  font-family: Bree Serif, 'Source Sans Pro';
+  white-space: nowrap;
+  color: black;
+  left:19.3rem;
+  top:373px;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.3575;
+  position:absolute;
+  z-index: 3;
 }
 .final-wG6 .auto-group-jc6v-Wbt .auto-group-se8r-4n6 .auto-group-j842-B62 .group-213-ZZk .group-191-VTQ .coca-cola-8FU {
   margin: 0rem 10.15rem 12.5rem 0rem;
@@ -1961,7 +1982,7 @@ body {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 1.3575;
-  color: #000000;
+  color: white;
   font-family: Bree Serif, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
