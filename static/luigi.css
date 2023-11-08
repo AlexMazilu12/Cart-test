@@ -1,3 +1,15 @@
+.circle{
+    position: fixed;
+    top:40px;
+    right: 70px;
+    height:20%;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
 .fixed_Luigi {
   position: fixed;
   bottom: 40px;

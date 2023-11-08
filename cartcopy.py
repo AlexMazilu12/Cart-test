@@ -113,7 +113,15 @@ def process_order():
         return render_template('emptycart.html')
 @app.route('/luigi')
 def luigi_orders():
-    return render_template('luigi.html', complete_orders=complete_orders)
+
+    with open('orders.json', 'r') as file:
+        data = json.load(file)
+
+    if len(data) >= 1:
+        oven = ['Oven is on!']
+    else:
+        oven = []
+    return render_template('luigi.html', complete_orders=complete_orders, oven=oven)
 
 @app.route('/mark_order_complete/<int:order_id>', methods=['GET'])
 def mark_order_complete(order_id):

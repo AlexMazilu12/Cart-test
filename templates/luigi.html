@@ -15,6 +15,13 @@
   <a href="" class="fixed_Luigi">
     <img src="\static\assets\Luigi-happy.jpg" alt="Luigi Icon" class="icon">
   </a>
+  {% if oven %}
+  <ul>
+      <img src="\static\assets\greencircle.png" alt="Oven On" class="circle">
+  </ul>
+  {% else %}
+  <img src="\static\assets\redcircle.png" alt="Oven Off" class="circle">
+  {% endif %}
   <ul>
     {% for order in complete_orders %}
       <li class="order-completed-9te">
