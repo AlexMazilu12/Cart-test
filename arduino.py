@@ -7,7 +7,7 @@ import json
 # -----------
 # Constants
 # -----------
-GREENLIGHT = 5
+GREENLIGHT=5
 
 # -----------
 # functions
